@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
+<body id='page-background'>
   <h3 id='welcome-message'>Welcome, Please sign in...</h3>
   <h5 id='user-role'></h5>
   <h4>Sign in:</h4>
@@ -23,7 +23,11 @@
   <button id="google-button">Sign in with Google</button>
 
   <hr />
+    
+  <div id='name-choice'></div>
+  <div id='color-choice'></div>
   <div id='user-data'></div>
+
   <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
